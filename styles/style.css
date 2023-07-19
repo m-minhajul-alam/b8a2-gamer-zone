@@ -216,6 +216,7 @@ li a {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding-bottom: 100px;
 }
 
 .play-inatantly-conatant {
@@ -261,6 +262,48 @@ li a {
 }
 
 /* play instently section style end */
+
+/* game type section style start */
+.game-type-section {
+    max-width: 80%;
+    margin: auto;
+}
+
+.game-type-container {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.game-type button {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    border: 2px solid #FFF;
+    padding: 5px 5px;
+    border-radius: 70px;
+    background-color: #FFF;
+}
+
+.game-type button:hover {
+    border: 2px solid #FF42A5;
+    color: #FF42A5;
+}
+
+.game-type img {
+    width: 35px;
+}
+
+.game-type button {
+    color: #0B0223;
+    font-size: 0.8rem;
+    font-weight: 600;
+}
+
+
+/* game type section style end */
 
 
 
@@ -354,6 +397,29 @@ li a {
     }
 
     /* play instently section style for 576px end */
+
+    /* game type section style for 576ox start */
+    .game-type-container {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 1px;
+    }
+
+    .game-type button {
+        gap: 3px;
+        padding: 2px 3px;
+    }
+
+    .game-type img {
+        width: 20px;
+    }
+
+    .game-type button {
+        font-size: 0.6rem;
+    }
+
+    /* game type section style for 576ox end */
+
 
 
 
@@ -459,8 +525,15 @@ li a {
         left: -25px;
         top: 300px;
     }
-    
+
     /* play instently section style for 576px-992px end */
+
+    /* game type section style for 576ox-992px start */
+
+
+
+    /* game type section style for 576ox-992px end */
+
 
 
 
