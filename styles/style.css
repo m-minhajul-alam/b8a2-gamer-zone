@@ -206,6 +206,62 @@ li a {
 
 /* online games section style end */
 
+/* play instently section style start */
+.play-instantly-section {
+    max-width: 80%;
+    margin: 50px auto 30px;
+}
+
+.play-instantly-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.play-inatantly-conatant {
+    width: 25%;
+    margin: auto;
+    text-align: right;
+    padding-right: 120px;
+}
+
+.play-inatantly-conatant h2 {
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.play-istantly {
+    background-image: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    color: transparent;
+    -webkit-background-clip: text;
+}
+
+.play-inatantly-conatant p {
+    color: #534C64;
+    font-size: 0.8rem;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+.play-instantly-img {
+    position: relative;
+
+}
+
+.play-instantly-img-one {
+    width: 30vw;
+
+}
+
+.play-instantly-img-two {
+    position: absolute;
+    width: 15vw;
+    left: -80px;
+    top: 230px;
+}
+
+/* play instently section style end */
+
 
 
 
@@ -261,9 +317,44 @@ li a {
 
     .online-game-card-img {
         width: 100%;
+        padding-top: 50px;
     }
 
     /* online games section style for 576px end */
+
+    /* play instently section style for 576px start */
+    .play-instantly-container {
+        flex-direction: column;
+    }
+
+    .play-inatantly-conatant {
+        width: 100%;
+        text-align: center;
+        padding-right: 0px;
+        padding-bottom: 20px;
+    }
+
+    .play-instantly-img-one {
+        width: 80%;
+        padding-left: 50px;
+
+    }
+
+    .play-instantly-img-two {
+        width: 15vw;
+        left: 20px;
+        top: 230px;
+    }
+
+    .play-instantly-img-two {
+        position: absolute;
+        width: 30vw;
+        left: -15px;
+        top: 180px;
+    }
+
+    /* play instently section style for 576px end */
+
 
 
 }
@@ -337,6 +428,40 @@ li a {
     }
 
     /* online games section style for 576px-992px end */
+
+    /* play instently section style for 576px-992px start */
+    .play-instantly-container {
+        flex-direction: column-reverse;
+    }
+
+    .play-inatantly-conatant {
+        width: 100%;
+        text-align: center;
+        padding-right: 0px;
+        padding-top: 80px;
+    }
+
+    .play-instantly-img-one {
+        width: 80%;
+        padding-left: 50px;
+
+    }
+
+    .play-instantly-img-two {
+        width: 15vw;
+        left: 20px;
+        top: 230px;
+    }
+
+    .play-instantly-img-two {
+        position: absolute;
+        width: 30vw;
+        left: -25px;
+        top: 300px;
+    }
+    
+    /* play instently section style for 576px-992px end */
+
 
 
 
