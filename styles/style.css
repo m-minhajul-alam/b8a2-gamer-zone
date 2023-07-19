@@ -250,6 +250,8 @@ li a {
     width: 15vw;
     background: radial-gradient(#111 50%, #000 100%);
 
+    border-radius: 10px;
+
 }
 
 .online-game-card-img {
@@ -259,13 +261,7 @@ li a {
     position: relative;
 }
 
-.online-game-card img {
-    transform: scale(1.1);
-    transition: all 0.3s ease-in-out;
-}
-
 .online-game-card:hover img {
-    transform: scale(1.1);
     opacity: 0.5;
     border: 2px solid red;
     border-radius: 10px;
