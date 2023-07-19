@@ -82,6 +82,84 @@ li a {
 /* nav section style end */
 
 
+/* bannersection style start */
+.banner-section {
+    max-width: 80%;
+    margin: auto;
+}
+
+.banner-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+
+.banner-contant h3 {
+    color: #0B0223;
+    font-size: 2rem;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.banner-contant h1 {
+    font-size: 5rem;
+    font-weight: 800;
+    text-transform: uppercase;
+    background-image: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    color: transparent;
+    -webkit-background-clip: text;
+    padding-bottom: 10px;
+}
+
+.banner-contant ul {
+    list-style: none;
+    padding-bottom: 10px;
+}
+
+.banner-contant ul li {
+    padding-bottom: 10px;
+}
+
+.buttons {
+    display: flex;
+    gap: 15px;
+}
+
+.btn-one {
+    color: #FFF;
+    font-size: 1rem;
+    font-weight: 600;
+    padding: 2.5vh 3vw;
+    border: none;
+    text-transform: uppercase;
+    border-radius: 48px;
+    background-color: #FF42A5;
+}
+
+.btn-two {
+    color: #FFF;
+    font-size: 1rem;
+    font-weight: 600;
+    padding: 2.5vh 2vw;
+    border: none;
+    text-transform: uppercase;
+    border-radius: 48px;
+    background-color: #4EC5F7;
+    ;
+}
+
+
+
+.banner-img {
+    width: 40vw;
+}
+
+
+/* bannersection style end */
+
+
 
 
 
@@ -100,12 +178,34 @@ li a {
         padding-bottom: 30px;
     }
 
+    .nav-menu {
+        padding: 1.2vh 2.5vw;
+    }
+
     .nav-menus ul {
         flex-direction: column;
         padding-bottom: 20px;
     }
 
     /* nav media quary style for 576px end */
+
+    /* bannersection style for 576px start */
+    .banner-container {
+        flex-direction: column-reverse;
+    }
+
+    .banner-contant {
+        padding-top: 30px;
+    }
+
+    .banner-img {
+        padding-top: 20px;
+        padding-bottom: 20px;
+        width: 100%;
+    }
+
+
+    /* bannersection style for 576px end */
 
 }
 
@@ -133,12 +233,39 @@ li a {
         padding-bottom: 30px;
     }
 
+    .nav-menu {
+        padding: 1.2vh 2.5vw;
+    }
+
     .nav-menus ul {
         padding-bottom: 20px;
         gap: 50px;
     }
 
     /* nav media quary style for 576px-992px end */
+
+    /* bannersection style for 576px-992px start */
+    .banner-container {
+        flex-direction: column;
+    }
+
+    .banner-contant {
+        padding-top: 30px;
+        padding-bottom: 30px;
+        text-align: center;
+    }
+
+    .buttons {
+        justify-content: center;
+    }
+
+    .banner-img {
+        padding-top: 20px;
+        padding-bottom: 20px;
+        width: 100%;
+    }
+
+    /* bannersection style for 576px-992px end */
 
 
 }
