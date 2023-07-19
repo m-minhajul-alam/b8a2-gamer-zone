@@ -314,6 +314,83 @@ li a {
 /* play game section style end */
 
 
+/* career section style start */
+.career-section {
+    background-color: #FF42A5;
+}
+
+.career-container {
+    max-width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    margin-bottom: 40px;
+}
+
+.career-contant h3 {
+    color: #FFF;
+    font-size: 2rem;
+    font-weight: 700;
+    padding-bottom: 20px;
+}
+
+.career-contant p {
+    color: #FFF;
+    font-size: 0.8rem;
+    font-weight: 400;
+    line-height: 20px;
+    padding-bottom: 20px;
+}
+
+.career-option {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 20px;
+}
+
+.career-option ul {
+    list-style: none;
+    color: #FFF;
+    font-size: 0.8rem;
+    font-weight: 600;
+    line-height: 20px;
+
+}
+
+
+.career-contant button {
+    border-radius: 48px;
+    background-color: #FFF;
+    padding: 15px 20px;
+    gap: 10px;
+    font-size: 0.8rem;
+    color: #FF42A5;
+    font-weight: 600;
+    border: none;
+    text-transform: uppercase;
+}
+
+
+.career-option .one {
+    text-align: left;
+}
+
+.career-option .two {
+    text-align: right;
+}
+
+.career-img {
+    width: 40vw;
+}
+
+
+/* career section style end */
+
+
 /* game type section style start */
 .game-type-container {
     max-width: 80%;
@@ -561,7 +638,23 @@ li a {
 
     /* play game section style for 576px end */
 
+    /* career section style for 576px start */
+    .career-container {
+        flex-direction: column;
+        padding-top: 20px;
+        padding-bottom: 30px;
+    }
 
+    .career-contant {
+        padding-bottom: 30px;
+
+    }
+
+    .career-img {
+        width: 100%;
+    }
+
+    /* career section style for 576px end */
 
     /* game type section style for 576ox start */
     .game-type-container {
@@ -742,6 +835,24 @@ li a {
     }
 
     /* play game section style for 576px-992px end */
+    /* career section style for 576px start */
+    .career-container {
+        flex-direction: column-reverse;
+        padding-top: 20px;
+        padding-bottom: 30px;
+        text-align: center;
+    }
+
+    .career-contant {
+        padding-bottom: 30px;
+
+    }
+
+    .career-img {
+        width: 100%;
+    }
+
+    /* career section style for 576px end */
 
 }
 
