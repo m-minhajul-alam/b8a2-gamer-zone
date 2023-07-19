@@ -1,7 +1,146 @@
+/* work sans font from google font */
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700;800&display=swap');
 
+/* common shared styles start */
 * {
     margin: 0;
     padding: 0;
     font-family: 'Work Sans', sans-serif;
 }
+
+/* common shared styles end */
+
+/* nav section style start */
+nav {
+    background: #FFF;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+}
+
+.nav-container {
+    max-width: 80%;
+    min-height: 13vh;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.nav-logo img {
+    width: 60px;
+}
+
+.nav-logo h2 {
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.nav-logo h2 .g {
+    color: #FF42A5;
+}
+
+.nav-menus ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 15px;
+}
+
+li a {
+    text-decoration: none;
+    color: #3C354F;
+    font-size: 0.8rem;
+    font-weight: 500;
+}
+
+.nav-menu {
+    display: flex;
+    align-items: center;
+    padding: 1vh 1.5vw;
+    padding-right: 0.5vw;
+    color: #3C354F;
+    font-size: 0.8rem;
+    font-weight: 500;
+    border-radius: 8px;
+    background: rgba(11, 2, 35, 0.10);
+    min-width: 12vw;
+    min-height: 5vh;
+    gap: 10px;
+
+}
+
+.fa-brands {
+    font-size: 20px;
+}
+
+
+/* nav section style end */
+
+
+
+
+
+
+/* media quaary style for 576px start */
+@media screen and (max-width: 576px) {
+
+    /* nav media quary style for 576px start */
+    .nav-container {
+        flex-direction: column;
+        max-width: 95%;
+    }
+
+    .nav-logo {
+        padding-top: 20px;
+        padding-bottom: 30px;
+    }
+
+    .nav-menus ul {
+        flex-direction: column;
+        padding-bottom: 20px;
+    }
+
+    /* nav media quary style for 576px end */
+
+}
+
+
+/* media quaary style for 576px end */
+
+
+
+
+
+
+
+
+/* media quaary style for 576px-992px start */
+@media screen and (min-width: 576px) and (max-width: 992px) {
+
+    /* nav media quary style for 576px-992px start */
+    .nav-container {
+        flex-direction: column;
+        max-width: 95%;
+    }
+
+    .nav-logo {
+        padding-top: 20px;
+        padding-bottom: 30px;
+    }
+
+    .nav-menus ul {
+        padding-bottom: 20px;
+        gap: 50px;
+    }
+
+    /* nav media quary style for 576px-992px end */
+
+
+}
+
+/* media quaary style for 576px-992px end */
