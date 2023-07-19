@@ -83,6 +83,13 @@ li a {
 
 
 /* bannersection style start */
+.banner-section {
+    background-image: url(../images/Group\ 14.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 60%;
+}
+
 .banner-container {
     max-width: 80%;
     margin: auto;
@@ -153,6 +160,55 @@ li a {
 /* bannersection style end */
 
 
+/* we are gamer section style start */
+.wearegamer-container {
+    max-width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.wearegamer-contant {
+    text-align: right;
+}
+
+.wearegamer-contant h3 {
+    background-image: linear-gradient(180deg, #F948B2, #8758F1);
+    -webkit-background-clip: text;
+    color: transparent;
+    font-size: 2rem;
+    font-weight: 700;
+    padding-bottom: 20px;
+}
+
+.wearegamer-contant p {
+    color: #534C64;
+    font-size: 0.8rem;
+    font-weight: 400;
+    line-height: 20px;
+    padding-bottom: 20px;
+}
+
+.wearegamer-contant button {
+    border-radius: 48px;
+    background-color: #FF42A5;
+    padding: 15px 20px;
+    gap: 10px;
+    font-size: 0.8rem;
+    color: #FFF;
+    font-weight: 600;
+    border: none;
+    text-transform: uppercase;
+}
+
+.wearegamer-container img {
+    width: 40vw;
+}
+
+/* we are gamer section style end */
+
+
 /* online games section style start */
 .online-game-container {
     max-width: 80%;
@@ -172,7 +228,7 @@ li a {
     padding-bottom: 10px;
 }
 
-.online-game-contant p {
+.card-container p {
     color: #534C64;
     font-size: 1rem;
     font-weight: 400;
@@ -190,8 +246,29 @@ li a {
     grid-template-columns: repeat(4, 1fr);
 }
 
+.online-game-card {
+    width: 15vw;
+    background: radial-gradient(#111 50%, #000 100%);
+
+}
+
 .online-game-card-img {
-    width: 19vw;
+    width: 15vw;
+    display: block;
+    overflow: hidden;
+    position: relative;
+    border: 2px solid red;
+    border-radius: 10px;
+}
+
+.online-game-card img {
+    transform: scale(1.1);
+    transition: all 0.3s ease-in-out;
+}
+
+.online-game-card:hover img {
+    transform: scale(1.1) translateY(-20px);
+    opacity: 0.3;
 }
 
 .online-game-card-desc {
@@ -570,6 +647,24 @@ li a {
     }
 
     /* bannersection style for 576px end */
+
+
+    /* we are gamer section for 576px style start */
+    .wearegamer-container {
+        flex-direction: column;
+    }
+
+    .wearegamer-contant {
+        text-align: center;
+    }
+
+    .wearegamer-container img {
+        width: 100%;
+    }
+
+
+    /* we are gamer section for 576px style end */
+
 
     /* online games section style for 576px start */
     .online-game-cards-container {
