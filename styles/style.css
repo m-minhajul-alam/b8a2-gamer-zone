@@ -768,6 +768,7 @@ li a {
     /* play instently section style for 576px start */
     .play-instantly-container {
         flex-direction: column;
+        padding-bottom: 100px;
     }
 
     .play-inatantly-conatant {
@@ -797,6 +798,7 @@ li a {
     /* play game section style for 576px start */
     .play-game-container {
         flex-direction: column-reverse;
+        padding-bottom: 100px;
     }
 
     .play-game-conatant {
@@ -1026,6 +1028,7 @@ li a {
     /* play instently section style for 576px-992px start */
     .play-instantly-container {
         flex-direction: column-reverse;
+        padding-bottom: 50px;
     }
 
     .play-inatantly-conatant {
@@ -1060,6 +1063,7 @@ li a {
     /* play game section style for 576px-992px start */
     .play-game-container {
         flex-direction: column;
+        padding-bottom: 50px;
     }
 
     .play-game-conatant {
