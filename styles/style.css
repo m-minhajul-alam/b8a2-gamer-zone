@@ -161,6 +161,12 @@ li a {
 
 
 /* we are gamer section style start */
+.wearegamer-section {
+    background-color: rgba(255, 66, 165, 0.03);
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
 .wearegamer-container {
     max-width: 80%;
     margin: auto;
@@ -187,7 +193,7 @@ li a {
     font-size: 0.8rem;
     font-weight: 400;
     line-height: 20px;
-    padding-bottom: 20px;
+    padding-bottom: 15px;
 }
 
 .wearegamer-contant button {
@@ -204,6 +210,20 @@ li a {
 
 .wearegamer-container img {
     width: 40vw;
+}
+
+#our {
+    color: #534C64;
+    font-size: 0.9rem;
+    font-weight: 500;
+    padding-top: 10px;
+}
+
+#unleash {
+    color: #534C64;
+    font-size: 1.2rem;
+    font-weight: 700;
+    padding-top: 7px;
 }
 
 /* we are gamer section style end */
@@ -228,17 +248,17 @@ li a {
     padding-bottom: 10px;
 }
 
-.card-container p {
-    color: #534C64;
-    font-size: 1rem;
-    font-weight: 400;
-    padding-bottom: 10px;
-}
-
 .funny-videos {
     background-image: linear-gradient(180deg, #F948B2, #8758F1);
     color: transparent;
     -webkit-background-clip: text;
+}
+
+.online-game-contant p {
+    color: #534C64;
+    font-size: 0.8rem;
+    font-weight: 600;
+    line-height: 20px;
 }
 
 .online-game-cards-container {
@@ -246,25 +266,8 @@ li a {
     grid-template-columns: repeat(4, 1fr);
 }
 
-.online-game-card {
-    width: 15vw;
-    background: radial-gradient(#111 50%, #000 100%);
-
-    border-radius: 10px;
-
-}
-
 .online-game-card-img {
-    width: 15vw;
-    display: block;
-    overflow: hidden;
-    position: relative;
-}
-
-.online-game-card:hover img {
-    opacity: 0.5;
-    border: 2px solid red;
-    border-radius: 10px;
+    width: 19vw;
 }
 
 .online-game-card-desc {
@@ -272,7 +275,7 @@ li a {
     font-size: 0.8rem;
     font-weight: 500;
     line-height: 20px;
-    padding-top: 10px;
+    padding: 10px 5px 3px 5px;
 }
 
 /* online games section style end */
@@ -297,6 +300,7 @@ li a {
 .play-inatantly-conatant h2 {
     font-size: 2rem;
     font-weight: 700;
+    padding-bottom: 10px;
 }
 
 .play-istantly {
@@ -352,6 +356,7 @@ li a {
 .play-game-conatant h2 {
     font-size: 2rem;
     font-weight: 700;
+    padding-bottom: 10px;
 }
 
 .play-game {
@@ -400,7 +405,6 @@ li a {
     align-items: center;
     padding-top: 20px;
     padding-bottom: 30px;
-    margin-bottom: 40px;
 }
 
 .career-contant h3 {
@@ -465,9 +469,16 @@ li a {
 
 
 /* game type section style start */
+.game-type-section {
+    background-color: rgba(255, 66, 165, 0.03);
+    padding-top: 80px;
+    padding-bottom: 80px;
+
+}
+
 .game-type-container {
     max-width: 80%;
-    margin: auto;
+    margin: 0 auto;
     display: flex;
     justify-content: center;
     align-content: center;
@@ -509,7 +520,7 @@ li a {
 
 .footer-container {
     max-width: 80%;
-    margin: 50px auto 0;
+    margin: auto;
     padding-top: 40px;
     padding-bottom: 50px;
 }
@@ -518,7 +529,7 @@ li a {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-bottom: 20px;
+    padding-bottom: 30px;
 }
 
 .footer-logo {
@@ -556,7 +567,7 @@ li a {
 .costomer-option li a {
     text-decoration: none;
     color: #FFF;
-    font-size: 0.8rem;
+    font-size: 0.7rem;
     font-weight: 600;
 }
 
@@ -572,7 +583,7 @@ li a {
 .s-media li a {
     text-decoration: none;
     color: #FFF;
-    font-size: 25px;
+    font-size: 20px;
     font-weight: 500;
 }
 
@@ -588,14 +599,14 @@ li a {
 .about-us li a {
     text-decoration: none;
     color: rgba(255, 255, 255, 0.60);
-    font-size: 0.8rem;
+    font-size: 0.6rem;
     font-weight: 500;
 }
 
 .copy-rigth {
     color: rgba(255, 255, 255, 0.60);
     text-align: center;
-    font-size: 0.8rem;
+    font-size: 0.5rem;
     font-weight: 500;
 }
 
@@ -632,6 +643,11 @@ li a {
         flex-direction: column-reverse;
     }
 
+    .banner-section {
+        background-position: left bottom;
+        background-size: 100%;
+    }
+
     .banner-contant {
         padding-top: 30px;
     }
@@ -646,6 +662,11 @@ li a {
 
 
     /* we are gamer section for 576px style start */
+    .wearegamer-section {
+        background-color: #FFF;
+        padding-bottom: 15px;
+    }
+
     .wearegamer-container {
         flex-direction: column;
     }
@@ -672,6 +693,10 @@ li a {
         padding-top: 50px;
     }
 
+    .online-game-card-desc {
+        text-align: center;
+    }
+
     /* online games section style for 576px end */
 
     /* play instently section style for 576px start */
@@ -684,6 +709,7 @@ li a {
         text-align: center;
         padding-right: 0px;
         padding-bottom: 20px;
+        text-shadow: 2px 2px 3px rgb(0, 0, 0, 0.3);
     }
 
     .play-instantly-img-one {
@@ -712,6 +738,7 @@ li a {
         text-align: center;
         padding-left: 0px;
         padding-bottom: 20px;
+        text-shadow: 2px 2px 3px rgb(0, 0, 0, 0.3);
     }
 
     .play-game-img-one {
@@ -748,6 +775,12 @@ li a {
     /* career section style for 576px end */
 
     /* game type section style for 576ox start */
+
+    .game-type-section {
+        background-color: #FFF;
+
+    }
+
     .game-type-container {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
@@ -832,7 +865,12 @@ li a {
 
     /* bannersection style for 576px-992px start */
     .banner-container {
-        flex-direction: column;
+        flex-direction: column-reverse;
+    }
+
+    .banner-section {
+        background-position: left bottom;
+        background-size: 60%;
     }
 
     .banner-contant {
@@ -852,6 +890,23 @@ li a {
     }
 
     /* bannersection style for 576px-992px end */
+
+    /* we are gamer section for 576px-992px style start */
+    .wearegamer-container {
+        flex-direction: column;
+    }
+
+    .wearegamer-contant {
+        text-align: center;
+    }
+
+    .wearegamer-container img {
+        width: 100%;
+    }
+
+
+    /* we are gamer section for 576px-992px style end */
+
 
     /* online games section style for 576px-992px start */
     .online-game-cards-container {
